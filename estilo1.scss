@@ -1,0 +1,104 @@
+$color1: #535353;
+$color2: #818da3;
+$color3: #a19e9f;
+$color4: #1e1e1e;
+body {
+    background-color: $color1;
+}
+li {
+    list-style: none;
+    font-style: none;
+}
+a {
+    font-style: none;
+    list-style: none;
+}
+.registro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        img {
+            border-radius: 6%;
+        }
+}
+.box {
+    background-color: $color4;
+    width: 300px;
+    height: 231px;
+    margin-left: -1%;
+    border-radius: 0 10px 10px 0;
+}
+.texto {
+    a {
+        list-style: none;
+        font-style: none;
+        text-decoration: none;
+    }
+    li {
+        list-style: none;
+    }
+    span {
+        font-family: 'Roboto', sans-serif;
+    }
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: white;
+        font-size: 19px;
+        margin-left: 8%;
+    }
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin-left: 8%;
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: -5%;
+        line-height: -10px;
+        margin-top: -3%;
+    }
+    li a h3{
+        margin-top: -4%;
+        transition: 0.5s;
+        width: 145px;
+        font-weight: 700;
+    }
+    a h3:hover {
+        background-color: white;
+        cursor: pointer;
+        color: $color1;
+        padding: 5px 5px;
+        border-radius: 5px;
+        transition: 0.5;
+        width: 145px;
+    }
+}
+.registro2 {
+    background: none; 
+    padding: 20px; 
+    border-radius: 15px; 
+    margin-top: -9%;
+  }
+  
+  .registro2 > div {
+    background: none; 
+  }
+  
+  .registro2 input[type="text"],
+  .registro2 input[type="password"],
+  .registro2 button {
+    border: 1px solid #303030;
+    border-radius: 10px;
+    background-color: #303030;  
+    padding: 4px 4px; 
+    margin-bottom: 10px; 
+    display: block; 
+    color: white;
+  }
+  
+  .registro2 button {
+    cursor: pointer; 
+    margin-left: 10%;
+    background-color: #303030;
+  }
