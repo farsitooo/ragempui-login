@@ -1,3 +1,31 @@
 $color1: #535353;
 $color2: #818da3;
 $color3: #a19e9f;
+
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    img {
+        width: 500px;
+        height: 300px;
+        border-radius: 10px 10px 10px 10px;
+    }
+}
+.imagen h3 {
+    position: absolute;
+    color: white; /* Optionally, set the text color to make it visible on the image */
+    margin-top: 6%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 5px;
+
+  }
+  .imagen h2 {
+    position: absolute;
+    color: white; /* Optionally, set the text color to make it visible on the image */
+    margin-top: -7%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }

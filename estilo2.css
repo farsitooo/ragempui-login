@@ -1,1 +1,27 @@
-/*# sourceMappingURL=estilo2.css.map */
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.imagen img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.imagen h3 {
+  position: absolute;
+  color: white; /* Optionally, set the text color to make it visible on the image */
+  margin-top: 6%;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 5px;
+}
+
+.imagen h2 {
+  position: absolute;
+  color: white; /* Optionally, set the text color to make it visible on the image */
+  margin-top: -7%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}/*# sourceMappingURL=estilo2.css.map */
