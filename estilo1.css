@@ -149,4 +149,9 @@ a {
   font-size: 14px;
   line-height: -10px;
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=estilo1.css.map */
